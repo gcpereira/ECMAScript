@@ -36,13 +36,13 @@ Em resumo, é importante tratar cada arquivo como se fosse um programa e ter cui
  	
   
 	
-Values & Variaveis
+### Values & Variaveis
 
 Variaveis são onde armazenamos valores para serem usados pelo programa
 Valor é a fundamental unidade de informação de um programa. São como os programas mantem o “state”. Em JS temos dois tipos de valores: primitive e object.
 
 
-String
+### String
 	
 String é um valor primitivo usado para representar palavras e frases. Você usa ‘ ou “ para delimitar.
 
@@ -52,11 +52,13 @@ Ex:
 Você pode usar tanto aspas simples, quanto aspas duplas é uma questão de preferência, apenas escolha uma e se mantenha fiel a ela em todo o código.
 Strings também podem ser delimitadas com **`**, mas nesse caso não é só uma questão de estilo ou preferência, nesse temos um comportamento diferente.
 	
-Ex: <br>
-  job = 'developer'; <br>
-  `console.log(‘I work as ${ job }’)   //  I work as ${ job }` <br>
-  `console.log(“I work as ${ job }”)  // I work as ${ job }` <br>
-  ``console.log(`I work as ${ job }`)   // I work as developer`` <br>
+Ex: 
+```
+job = 'developer';
+console.log(‘I work as ${ job }’)  // I work as ${ job }
+console.log(“I work as ${ job }”)  // I work as ${ job }
+console.log(`I work as ${ job }`)  // I work as developer
+```
 
 Temos aqui uma "interpolation" onde o valor dentro de `${ }` é interpretado. Também conhecido como **template literal**
 
