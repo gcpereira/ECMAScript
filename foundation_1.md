@@ -184,13 +184,13 @@ e como funções são valores, elas podem ser passadas como valores em objetos
 
 ```
   var riu = {
-      punch() {
+      punch: function() {
         consule.log(‘giving punch!!!’)
     },
-      kick() {
+      kick: function() {
         consule.log(‘kicking some ass!!!’)
     },
-      haduken() {
+      haduken: function() {
         consule.log(‘haDUUUUUUUUUUUken!!!’)
     }
   }
